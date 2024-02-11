@@ -96,7 +96,7 @@ nav a:hover {
     display: inline;
     position: absolute;
     left: 5px;
-    bottom: 15px;
+    bottom: 25px;
     padding-right: 15px;
     background-color: var(--light-color);
     color: var(--dark-color);
@@ -121,4 +121,12 @@ nav a:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(145, 92, 182, .15);
     box-shadow: 5px 5px 15px rgba(145, 92, 182, .4);
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
