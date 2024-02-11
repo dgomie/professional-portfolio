@@ -67,30 +67,11 @@ nav a:hover {
     box-shadow: 5px 5px 15px rgba(145, 92, 182, .4);
 }
 
-.project {
+.card {
     display: flex;
     position: relative;
 }
 
-/* .project h3 {
-    display: inline;
-    position: absolute;
-    left: 5px;
-    bottom: 15px;
-    padding: 5px;
-    background-color: var(--light-color);
-    color: var(--dark-color);
-}
-
-.project p {
-    display: block;
-    position: absolute;
-    left: 5px;
-    bottom: 10px;
-    padding: 5px;
-    background-color: var(--light-color);
-    color: var(--dark-color);
-} */
 
 .subtitle {
     display: inline;
@@ -112,12 +93,12 @@ nav a:hover {
     font-style: italic;
 }
 
-.project img {
+.card img {
     border: 5px solid var(--light-color);
     width: 375px;
 }
 
-.project img:hover {
+.card img:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(145, 92, 182, .15);
     box-shadow: 5px 5px 15px rgba(145, 92, 182, .4);
@@ -128,5 +109,21 @@ nav a:hover {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
+
+/* h2 {
+    display: block;
+    color: var(--dark-color);
+    border-right: solid var(--dark-color);
+} */
+
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+
+    main {
+      max-width: 1200px;
+    }
+  }
