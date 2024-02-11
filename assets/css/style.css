@@ -49,10 +49,76 @@ nav ul {
 }
 
 nav li {
+    padding: 10px;
     background-color: var(--dark-color);
 }
 nav a {
     background-color: var(--dark-color);
     color: var(--light-color);
     font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 50%;
   }
+
+nav a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(145, 92, 182, .15);
+    box-shadow: 5px 5px 15px rgba(145, 92, 182, .4);
+}
+
+.project {
+    display: flex;
+    position: relative;
+}
+
+/* .project h3 {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    bottom: 15px;
+    padding: 5px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.project p {
+    display: block;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    padding: 5px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+} */
+
+.subtitle {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    bottom: 15px;
+    padding-right: 15px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.subtitle h3, .subtitle p {
+    background-color: var(--light-color);
+    text-align: center;
+    height: 10px;
+}
+
+.subtitle p {
+    font-style: italic;
+}
+
+.project img {
+    border: 5px solid var(--light-color);
+    width: 375px;
+}
+
+.project img:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(145, 92, 182, .15);
+    box-shadow: 5px 5px 15px rgba(145, 92, 182, .4);
+}
