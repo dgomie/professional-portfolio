@@ -12,10 +12,10 @@
 }
 
 .hero {
-    height: 300px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/DSC_2682.jpg");
+    background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: center;
 }
