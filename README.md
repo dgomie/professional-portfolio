@@ -17,28 +17,19 @@ N/A
 
 Navigate to https://github.com/dgomie/professional-portfolio. To view the updated html elements and alt text for images, open the Chrome DevTools by pressing Command+Option+I (MacOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Screen shot of home page](./assets/images/DSC_2682.jpg)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+### Images:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-Images:
+[Arnold Francisca](https://unsplash.com/@clark_fransa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/turned-on-macbook-pro-wit-programming-codes-display-f77Bh3inUpE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-Photo by <a href="https://unsplash.com/@clark_fransa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arnold Francisca</a> on <a href="https://unsplash.com/photos/turned-on-macbook-pro-wit-programming-codes-display-f77Bh3inUpE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+[Huma Kabakci](https://unsplash.com/@humakabakci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-black-and-white-photo-of-a-sign-that-says-coming-soon-oRk4Ep65tRc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-Photo by <a href="https://unsplash.com/@humakabakci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Huma Kabakci</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-sign-that-says-coming-soon-oRk4Ep65tRc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+[WebFactory Ltd](https://unsplash.com/@webfactoryltd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-and-silver-laptop-computer-NoOrDKxUfzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-Photo by <a href="https://unsplash.com/@webfactoryltd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">WebFactory Ltd</a> on <a href="https://unsplash.com/photos/black-and-silver-laptop-computer-NoOrDKxUfzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@helloimnik?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nik</a> on <a href="https://unsplash.com/photos/tiny-model-construction-workers-working-on-a-mobile-phone-screen-umFPf301OjQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-If you followed tutorials, include links to those here as well.
+[Nik](https://unsplash.com/@helloimnik?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/tiny-model-construction-workers-working-on-a-mobile-phone-screen-umFPf301OjQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## License
 
