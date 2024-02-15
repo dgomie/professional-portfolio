@@ -20,45 +20,12 @@
     background-position: center;
 }
 
-.section {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    margin-bottom: 25px;
-}
-
-.section  h2 {
-    display: flex;
-    justify-content: flex-end;
-    min-width: 175px;
-    padding-right: 10px;
-    border-right: 5px solid var(--dark-color);
-    margin: 5px;
-}
-
-.section ul {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-    font-weight: bold;
-
-}
-
-.section p {
-    max-width: 85%;
-    padding: 15px;
-}
-
-  
 header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--dark-color);
-    width: 100%;
-    
+    width: 100%;   
 }
 
 header h1{
@@ -99,10 +66,71 @@ nav a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.card {
+a:hover {
+    color: var(--light-color)
+}
+
+.section {
     display: flex;
     position: relative;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.section  h2 {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 175px;
+    padding-right: 10px;
+    border-right: 5px solid var(--dark-color);
+    margin: 5px;
+}
+
+.section ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.section p {
+    max-width: 85%;
+    padding: 15px;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: colum;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
     max-width: auto;
+}
+
+.card a {
+    min-width: 150px;
+    max-width: 400px;
+}
+
+.card img {
+    border: 5px solid var(--light-color);
+    min-width: 150px;
+    width: 400px;
+    
+}
+
+.card img:hover {
+    opacity: 0.6;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(145, 92, 182, .15);
+    box-shadow: 5px 5px 15px var(--dark-color);
 }
 
 
@@ -120,42 +148,17 @@ nav a:hover {
 
 .subtitle h3, .subtitle p {
     background-color: var(--light-color);
+    font-family: monospace;
     text-align: center;
-    height: 10px;
+    height: 2px;
 }
 
 .subtitle p {
     font-style: italic;
 }
 
-.card a {
-    min-width: 150px;
-    max-width: 400px;
-}
 
-.card img {
-    border: 5px solid var(--light-color);
-    min-width: 150px;
-    max-width: 400px;
-    
-}
-
-.card img:hover {
-    opacity: 0.6;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(145, 92, 182, .15);
-    box-shadow: 5px 5px 15px var(--dark-color);
-}
-
-.projects {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: colum;
-    flex-wrap: wrap;
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     header {
       flex-direction: column;
     }
@@ -164,29 +167,36 @@ nav a:hover {
         flex-direction: column;
         padding: 5px;
     }
-
-    main {
-      max-width: 1200px;
-    }
+  
   }
 
-  @media screen and (max-width: 540px) {
+  /*  */
+  @media screen and (max-width: 625px) {
     
     header ul {
         justify-content: flex-start;
     }
     
     .section {
-        justify-content: flex-end;
+        justify-content: flex-start;   
+    }
+
+    .section h2{
+        justify-content: flex-start;
+        min-width: 90px;
+    }
+    .card {
+        max-width: 80%;
     }
 
     .card img {
-        max-width: 70%;
+        max-width: 100%;
     }
 
     .card a {
         min-width: 100px;
         max-width: 100px;
+        width: auto;
     }
 
     .subtitle {
