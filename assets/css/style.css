@@ -27,11 +27,10 @@
     margin-bottom: 25px;
 }
 
-.section h2 {
+.section  h2 {
     display: flex;
-    position: flex-start;
-    justify-content: center;
-    min-width: 20%;
+    justify-content: flex-end;
+    min-width: 175px;
     padding-right: 10px;
     border-right: 5px solid var(--dark-color);
     margin: 5px;
@@ -42,14 +41,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* min-width: 300px; */
     list-style: none;
     font-weight: bold;
 
 }
 
 .section p {
-    /* display: flex; */
     max-width: 85%;
     padding: 15px;
 }
@@ -75,7 +72,6 @@ header h1{
 }
 nav {
     background-color: var(--dark-color);
-    padding-right: 5%;
 }
 
 nav ul {
@@ -97,8 +93,6 @@ nav a {
     font-weight: bold;
     font-size: large;
     text-decoration: none;
-    
-    
   }
 
 nav a:hover {
@@ -108,6 +102,7 @@ nav a:hover {
 .card {
     display: flex;
     position: relative;
+    max-width: auto;
 }
 
 
@@ -121,8 +116,6 @@ nav a:hover {
     background-color: var(--light-color);
     color: var(--dark-color);
     width: auto;
-    
-
 }
 
 .subtitle h3, .subtitle p {
@@ -135,9 +128,16 @@ nav a:hover {
     font-style: italic;
 }
 
+.card a {
+    min-width: 150px;
+    max-width: 400px;
+}
+
 .card img {
     border: 5px solid var(--light-color);
-    width: 70%;
+    min-width: 150px;
+    max-width: 400px;
+    
 }
 
 .card img:hover {
@@ -149,8 +149,8 @@ nav a:hover {
 
 .projects {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: colum;
     flex-wrap: wrap;
 }
 
@@ -162,9 +162,54 @@ nav a:hover {
 
     .section ul {
         flex-direction: column;
+        padding: 5px;
     }
 
     main {
       max-width: 1200px;
     }
+  }
+
+  @media screen and (max-width: 540px) {
+    
+    header ul {
+        justify-content: flex-start;
+    }
+    
+    .section {
+        justify-content: flex-end;
+    }
+
+    .card img {
+        max-width: 70%;
+    }
+
+    .card a {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .subtitle {
+        display: inline;
+        background-color: var(--light-color);
+        color: var(--dark-color);
+    }
+
+    .subtitle h3 {
+        position: relative;
+        background-color: var(--light-color);
+        text-align: center;
+        width: auto;
+        font-size: small;
+    }
+
+    .subtitle p  {
+        display: none;
+    }
+
+    .card a {
+    min-width: 150px;
+    max-width: 400px;
+}
+
   }
