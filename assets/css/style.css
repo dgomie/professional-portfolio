@@ -11,15 +11,6 @@
     color: var(--dark-color);
 }
 
-.hero {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/hero-image.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 header { 
     display: flex;
     justify-content: space-between;
@@ -70,6 +61,15 @@ a:hover {
     color: var(--light-color)
 }
 
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .section {
     display: flex;
     position: relative;
@@ -115,6 +115,7 @@ a:hover {
 }
 
 .card a {
+    flex:1;
     min-width: 150px;
     max-width: 400px;
 }
@@ -122,7 +123,7 @@ a:hover {
 .card img {
     border: 5px solid var(--light-color);
     min-width: 150px;
-    width: 400px;
+    width: 500px;
     
 }
 
@@ -170,8 +171,7 @@ a:hover {
   
   }
 
-  /*  */
-  @media screen and (max-width: 625px) {
+@media screen and (max-width: 625px) {
     
     header ul {
         justify-content: flex-start;

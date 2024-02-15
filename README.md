@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 
-Navigate to https://github.com/dgomie/professional-portfolio. To view the updated html elements and alt text for images, open the Chrome DevTools by pressing Command+Option+I (MacOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser.
+Navigate to https://dgomie.github.io/professional-portfolio/. To view the updated html elements and alt text for images, open the Chrome DevTools by pressing Command+Option+I (MacOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser.
 
 ![Screen shot of home page](./assets/images/DSC_2682.jpg)
 
