@@ -159,20 +159,16 @@ a:hover {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     header {
-      flex-direction: column;
-    }
-
-    .section ul {
         flex-direction: column;
-        padding: 5px;
-    }
+      }
   
-  }
+      .section ul {
+          flex-direction: column;
+          padding: 5px;
+      }
 
-@media screen and (max-width: 625px) {
-    
     header ul {
         justify-content: flex-start;
     }
@@ -183,8 +179,10 @@ a:hover {
 
     .section h2{
         justify-content: flex-start;
-        min-width: 90px;
+        min-width: 100px;
     }
+
+
     .card {
         max-width: 80%;
     }
